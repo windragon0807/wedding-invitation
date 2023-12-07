@@ -38,7 +38,9 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.2.15"],\
           ["@types/testing-library__jest-dom", "npm:6.0.0"],\
           ["classnames", "npm:2.3.2"],\
+          ["concurrently", "npm:8.2.2"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:2.30.0"],\
           ["eslint", "npm:8.53.0"],\
           ["eslint-config-prettier", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:9.0.0"],\
           ["eslint-config-react-app", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:7.0.1"],\
@@ -3085,6 +3087,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../.yarn/berry/cache/@babel-runtime-npm-7.23.2-d013d6cf7e-10c0.zip/node_modules/@babel/runtime/",\
         "packageDependencies": [\
           ["@babel/runtime", "npm:7.23.2"],\
+          ["regenerator-runtime", "npm:0.14.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.23.5", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/@babel-runtime-npm-7.23.5-6e68b78aa3-10c0.zip/node_modules/@babel/runtime/",\
+        "packageDependencies": [\
+          ["@babel/runtime", "npm:7.23.5"],\
           ["regenerator-runtime", "npm:0.14.0"]\
         ],\
         "linkType": "HARD"\
@@ -7349,6 +7359,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["concurrently", [\
+      ["npm:8.2.2", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/concurrently-npm-8.2.2-8ae42f052b-10c0.zip/node_modules/concurrently/",\
+        "packageDependencies": [\
+          ["concurrently", "npm:8.2.2"],\
+          ["chalk", "npm:4.1.2"],\
+          ["date-fns", "npm:2.30.0"],\
+          ["lodash", "npm:4.17.21"],\
+          ["rxjs", "npm:7.8.1"],\
+          ["shell-quote", "npm:1.8.1"],\
+          ["spawn-command", "npm:0.0.2"],\
+          ["supports-color", "npm:8.1.1"],\
+          ["tree-kill", "npm:1.2.2"],\
+          ["yargs", "npm:17.7.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["confusing-browser-globals", [\
       ["npm:1.0.11", {\
         "packageLocation": "../../../../../.yarn/berry/cache/confusing-browser-globals-npm-1.0.11-b3ff8e9483-10c0.zip/node_modules/confusing-browser-globals/",\
@@ -7992,6 +8020,16 @@ const RAW_RUNTIME_STATE =
           ["abab", "npm:2.0.6"],\
           ["whatwg-mimetype", "npm:2.3.0"],\
           ["whatwg-url", "npm:8.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["date-fns", [\
+      ["npm:2.30.0", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/date-fns-npm-2.30.0-895c790e0f-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:2.30.0"],\
+          ["@babel/runtime", "npm:7.23.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16394,6 +16432,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["rxjs", [\
+      ["npm:7.8.1", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/rxjs-npm-7.8.1-41c443a75b-10c0.zip/node_modules/rxjs/",\
+        "packageDependencies": [\
+          ["rxjs", "npm:7.8.1"],\
+          ["tslib", "npm:2.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["safe-array-concat", [\
       ["npm:1.0.1", {\
         "packageLocation": "../../../../../.yarn/berry/cache/safe-array-concat-npm-1.0.1-8a42907bbf-10c0.zip/node_modules/safe-array-concat/",\
@@ -16960,6 +17008,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../.yarn/berry/cache/sourcemap-codec-npm-1.4.8-3a1a9e60b1-10c0.zip/node_modules/sourcemap-codec/",\
         "packageDependencies": [\
           ["sourcemap-codec", "npm:1.4.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["spawn-command", [\
+      ["npm:0.0.2", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/spawn-command-npm-0.0.2-014d4d5d9f-10c0.zip/node_modules/spawn-command/",\
+        "packageDependencies": [\
+          ["spawn-command", "npm:0.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -17751,6 +17808,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["tr46", "npm:2.1.0"],\
           ["punycode", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tree-kill", [\
+      ["npm:1.2.2", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/tree-kill-npm-1.2.2-3da0e5a759-10c0.zip/node_modules/tree-kill/",\
+        "packageDependencies": [\
+          ["tree-kill", "npm:1.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -18603,7 +18669,9 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.2.15"],\
           ["@types/testing-library__jest-dom", "npm:6.0.0"],\
           ["classnames", "npm:2.3.2"],\
+          ["concurrently", "npm:8.2.2"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:2.30.0"],\
           ["eslint", "npm:8.53.0"],\
           ["eslint-config-prettier", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:9.0.0"],\
           ["eslint-config-react-app", "virtual:5d9c662fffdb090b6406e1651123068e9268e6a51c5fe53014edcb384e73e38635916b92e7b13e73f07e0a494b768f45152d5d1109c950fa8d3fee7fb7818879#npm:7.0.1"],\
