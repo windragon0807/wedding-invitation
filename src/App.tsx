@@ -1,12 +1,12 @@
 import classNames from 'classnames/bind';
 import { useEffect, useState } from 'react';
-import styles from './App.module.scss';
 
+import styles from './App.module.scss';
+import { Wedding } from './models/wedding';
 import FullScreenMessage from './components/shared/FullScreenMessage';
 import Heading from './components/sections/Heading';
 import Video from './components/sections/Video';
-
-import { Wedding } from './models/wedding';
+import ImageGallery from './components/sections/ImageGallery';
 
 const cx = classNames.bind(styles);
 
@@ -15,7 +15,6 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
-  // 1. wedding 데이터 호출
   useEffect(() => {
     setLoading(true);
 
@@ -50,12 +49,13 @@ function App() {
     return null;
   }
 
-  const { date } = wedding;
+  const { date, galleryImages } = wedding;
 
   return (
     <div className={cx('container')}>
       <Heading date={date} />
       <Video />
+      <ImageGallery images={galleryImages} />
       {JSON.stringify(wedding)}
     </div>
   );
