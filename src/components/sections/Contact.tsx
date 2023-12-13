@@ -72,8 +72,7 @@ function ContactInfo({ name, account, phoneNumber }: Person) {
         <li>
           <CopyToClipboard
             text={`${account.bankName} ${account.accountNumber}`}
-            onCopy={() => alert('복사가 완료되었습니다.')}
-          >
+            onCopy={() => alert('복사가 완료되었습니다.')}>
             <button className={cx('button')}>복사</button>
           </CopyToClipboard>
         </li>
@@ -83,8 +82,7 @@ function ContactInfo({ name, account, phoneNumber }: Person) {
               href={account.kakaopayLink}
               className={cx('button')}
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               송금
             </a>
           </li>

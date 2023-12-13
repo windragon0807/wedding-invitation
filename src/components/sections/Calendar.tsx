@@ -27,8 +27,7 @@ export default function Calendar({ date }: Props) {
             {format(weddingDate, 'aaa h시 eeee', { locale: ko })}
           </span>
         </div>
-      }
-    >
+      }>
       <div className={cx('wrap-calendar')}>
         <style>{css}</style>
         <DayPicker

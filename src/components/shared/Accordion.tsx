@@ -16,7 +16,7 @@ export default function Accordion({
   const [expanded, setExpanded] = useState(false);
 
   const handleToggle = () => {
-    setExpanded((prev) => !prev);
+    setExpanded(prev => !prev);
   };
 
   return (

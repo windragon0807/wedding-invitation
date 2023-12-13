@@ -27,8 +27,7 @@ function Heart() {
     <svg
       className={cx('ico-heart')}
       viewBox="0 0 512 512"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <g>
         <path d="M365.4,59.628c60.56,0,109.6,49.03,109.6,109.47c0,109.47-109.6,171.8-219.06,281.271    C146.47,340.898,37,278.568,37,169.099c0-60.44,49.04-109.47,109.47-109.47c54.73,0,82.1,27.37,109.47,82.1    C283.3,86.999,310.67,59.628,365.4,59.628z" />
       </g>
@@ -48,8 +47,7 @@ function Error() {
       strokeLinejoin="round"
       strokeWidth="2"
       viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0h24v24H0z" fill="none" stroke="none" />
       <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />

@@ -34,8 +34,7 @@ export default function ImageGallery({ images }: Props) {
               className={cx('wrap-image')}
               onClick={() => {
                 handleSelectedImage(idx);
-              }}
-            >
+              }}>
               <img src={src} alt="사진첩 이미지" />
             </li>
           ))}

@@ -57,8 +57,7 @@ export default function Map({ location }: Props) {
           <span className={cx('txt-subtitle')}>{location.name}</span>
           <span className={cx('txt-subtitle')}>{location.address}</span>
         </div>
-      }
-    >
+      }>
       <div className={cx('wrap-map')}>
         <div className={cx('map')} ref={mapContainer}></div>
         <a
@@ -89,7 +88,7 @@ function WayToCome({ label, list }: WayToComeProps) {
     <div className={cx('wrap-waytocome')}>
       <div className={cx('txt-label')}>{label}</div>
       <ul>
-        {list.map((waytocome) => (
+        {list.map(waytocome => (
           <li>{waytocome}</li>
         ))}
       </ul>
