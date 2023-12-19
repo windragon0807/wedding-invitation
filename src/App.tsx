@@ -1,8 +1,5 @@
 import classNames from 'classnames/bind';
-import { useEffect, useState } from 'react';
 import styles from './App.module.scss';
-import { Wedding } from './models/wedding';
-import FullScreenMessage from './components/shared/FullScreenMessage';
 import Heading from './components/sections/Heading';
 import Video from './components/sections/Video';
 import Intro from './components/sections/Intro';
@@ -18,11 +15,7 @@ import useWedding from './hooks/useWedding';
 const cx = classNames.bind(styles);
 
 export default function App() {
-  const { wedding, error } = useWedding();
-
-  if (error) {
-    return <FullScreenMessage type="error" />;
-  }
+  const { wedding } = useWedding();
 
   if (wedding == null) {
     return null;
