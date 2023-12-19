@@ -54,7 +54,7 @@ export default function AttendCountModal({ wedding }: Props) {
         close();
       },
     });
-  }, []); // eslint-disable-line
+  }, [open, close, wedding, haveSeenModal]);
 
   return null;
 }

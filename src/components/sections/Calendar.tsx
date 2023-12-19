@@ -2,6 +2,7 @@ import classNames from 'classnames/bind';
 import { parseISO, format } from 'date-fns';
 import { ko } from 'date-fns/locale';
 import { DayPicker } from 'react-day-picker';
+import { memo } from 'react';
 import 'react-day-picker/dist/style.css';
 import styles from './Calendar.module.scss';
 import Section from '@shared/Section';
@@ -12,7 +13,7 @@ type Props = {
   date: string;
 };
 
-export default function Calendar({ date }: Props) {
+function Calendar({ date }: Props) {
   const weddingDate = parseISO(date);
 
   return (
@@ -67,3 +68,5 @@ const css = `
     color: var(--blue);
   }
 `;
+
+export default memo(Calendar);
