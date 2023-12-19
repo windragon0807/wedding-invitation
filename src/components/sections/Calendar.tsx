@@ -3,7 +3,6 @@ import { parseISO, format } from 'date-fns';
 import { ko } from 'date-fns/locale';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
-
 import styles from './Calendar.module.scss';
 import Section from '@shared/Section';
 

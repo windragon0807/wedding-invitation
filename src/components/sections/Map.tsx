@@ -1,8 +1,8 @@
 import classNames from 'classnames/bind';
-import Section from '@shared/Section';
-import styles from './Map.module.scss';
 import React, { useEffect, useRef } from 'react';
 import { Location } from '@models/wedding';
+import Section from '@shared/Section';
+import styles from './Map.module.scss';
 
 declare global {
   interface Window {

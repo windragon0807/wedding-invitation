@@ -1,6 +1,6 @@
+import { useEffect, useRef } from 'react';
 import { Wedding } from '@models/wedding';
 import { useModalContext } from '@contexts/ModalContext';
-import { useEffect, useRef } from 'react';
 
 type Props = {
   wedding: Wedding;

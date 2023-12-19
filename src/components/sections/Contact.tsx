@@ -1,6 +1,5 @@
 import classNames from 'classnames/bind';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-
 import Section from '@shared/Section';
 import Accordion from '@shared/Accordion';
 import { Person, Wedding } from '@models/wedding';

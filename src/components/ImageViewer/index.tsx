@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from 'classnames/bind';
-
 import 'swiper/css';
 import styles from './ImageViewer.module.scss';
 import './swiper.css';

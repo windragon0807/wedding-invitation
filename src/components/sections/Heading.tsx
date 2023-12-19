@@ -1,6 +1,5 @@
 import classNames from 'classnames/bind';
 import { format, parseISO, getDay } from 'date-fns';
-
 import styles from './Heading.module.scss';
 import Section from '@shared/Section';
 
