@@ -2,7 +2,7 @@ import { Wedding } from '@models/wedding';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { getWedding } from '../apis/wedding';
 
-function useWedding() {
+export default function useWedding() {
   const { data, isLoading, error } = useSuspenseQuery<Wedding>({
     queryKey: ['wedding'],
     queryFn: () =>
@@ -16,5 +16,3 @@ function useWedding() {
 
   return { wedding: data, isLoading, error };
 }
-
-export default useWedding;
